@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  melotts:
+    build:
+      context: .
+    container_name: melotts
+    ports:
+      - "8888:8888"
